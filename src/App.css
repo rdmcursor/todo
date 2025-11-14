@@ -6,7 +6,7 @@
 
 .app {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
   padding: 2rem 1rem;
   display: flex;
   justify-content: center;
@@ -44,7 +44,7 @@ header h1 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -75,13 +75,13 @@ header h1 {
 }
 
 .todo-input:focus {
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
 }
 
 .add-button {
   padding: 0.875rem 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
   color: white;
   border: none;
   border-radius: 8px;
@@ -94,7 +94,7 @@ header h1 {
 
 .add-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
 }
 
 .add-button:active {
@@ -125,7 +125,7 @@ header h1 {
 }
 
 .filter-btn.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
   color: white;
   border-color: transparent;
 }
@@ -171,8 +171,8 @@ header h1 {
 }
 
 .todo-item:hover {
-  border-color: #667eea;
-  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.1);
+  border-color: #10b981;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.1);
   transform: translateX(4px);
 }
 
@@ -192,7 +192,7 @@ header h1 {
   width: 20px;
   height: 20px;
   cursor: pointer;
-  accent-color: #667eea;
+  accent-color: #10b981;
 }
 
 .todo-text {
